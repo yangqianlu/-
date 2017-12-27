@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="js/jquery-1.4.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+<title>户型详情页面</title>
+</head>
+
+<body>
+<div class="bottom">
+  <div class="bigimg">
+    <a class="mainimg"><img src="images/hx.png"/ ></a>
+    <div class="btn_list"><a class="backlist"></a></div>
+  </div>
+  
+   <div class="hu_intro"><p class="l_name">A1户型【3/2/1,122.27m2】</p><p class="gray">中央花园</p></div>
+   
+   <div class="fx_lpinfo">
+     <ul>
+       <li><p class="in1">总　价:</p><p class="in2"><span>45.25</span>万</p><p class="in2"><span>3400</span>元/㎡</p><a class="j_icon"><img src="images/mmm.png" /></a></li>
+       <div class="clear"></div>
+       <li><p class="in1">类　型:</p><p class="in3"><span>小高层</span></p></li>
+       <li><p class="in1">朝　向:</p><p class="in3">南</p></li>
+       <li><p class="in1">装　修:</p><p class="in3">毛坯</p></li>
+       <li><p class="in1">交　房:</p><p class="in3">2014-06-12</p></li>
+       <li><p class="in1">特　色:</p><p class="in3"><span class="t_se">南北通透</span><span class="t_se">采光性好</span><span class="t_se">户型正</span></p></li>
+     </ul>
+   </div>
+
+<div class="greybox"></div>
+
+  
+  <div class="itembox">
+     <h3 class="com_head">户型房源</h3>
+       <div class="hxfy">
+         <p>A1户型 - 28号 - 1单元 - 201 在售</p>
+         <p>200㎡，3/2/1，8/14，30万<span>房源详情<a class="hxf"><img src="images/more_right.png"/></a></span></p>
+       </div>
+       <div class="hxfy">
+         <p>A1户型 - 28号 - 1单元 - 201 在售</p>
+         <p>200㎡，3/2/1，8/14，30万<span>房源详情<a class="hxf"><img src="images/more_right.png"/></a></span></p>
+       </div>
+       <div class="hxfy">
+         <p>A1户型 - 28号 - 1单元 - 201 在售</p>
+         <p>200㎡，3/2/1，8/14，30万<span>房源详情<a class="hxf"><img src="images/more_right.png"/></a></span></p>
+       </div>
+       <div class="hxfy">
+         <p>A1户型 - 28号 - 1单元 - 201 在售</p>
+         <p>200㎡，3/2/1，8/14，30万<span>房源详情<a class="hxf"><img src="images/more_right.png"/></a></span></p>
+       </div>
+       <div class="hxfy no-hx">
+         <p>A1户型 - 28号 - 1单元 - 201 在售</p>
+         <p>200㎡，3/2/1，8/14，30万<span>房源详情<a class="hxf"><img src="images/more_right.png"/></a></span></p>
+       </div>  
+       <div class="gd"><p>查看更多客户<a class="moreg"><img src="images/more_right.png"/></a></p></div>                        
+  </div>
+  
+  
+<div class="greybox"></div>
+  
+   <div class="itembox">
+       <h3 class="com_head">户型介绍</h3>
+       <div class="hx_row">
+         <div class="hx_img"><img src="images/02.png" /></div>
+         <div class="hx_word">
+           <p class="hw1">房源户型很好</p>
+           <p class="hw2">该套户型的房源坐南朝北，拥有很好的采...</p>
+         </div>
+       </div>
+       
+       <div class="hx_row">
+         <div class="hx_img"><img src="images/02.png" /></div>
+         <div class="hx_word">
+           <p class="hw1">房源户型很好</p>
+           <p class="hw2">该套户型的房源坐南朝北，拥有很好的采...</p>
+         </div>
+       </div>
+       
+       <div class="hx_row">
+         <div class="hx_img"><img src="images/02.png" /></div>
+         <div class="hx_word">
+           <p class="hw1">房源户型很好</p>
+           <p class="hw2">该套户型的房源坐南朝北，拥有很好的采...</p>
+         </div>
+       </div>
+       
+       <div class="hx_row">
+         <div class="hx_img"><img src="images/02.png" /></div>
+         <div class="hx_word">
+           <p class="hw1">房源户型很好</p>
+           <p class="hw2">该套户型的房源坐南朝北，拥有很好的采...</p>
+         </div>
+       </div>
+  </div>
+</div>
+
+<div class="foot_btm">
+  <div class="add_kh"><a>添加意向客户</a></div>
+</div>
+  <script src="js/swiper.min.js"></script>
+<script>
+
+  var swiper = new Swiper('.swiper-container', {
+	  pagination: '.swiper-pagination',
+	  slidesPerView: 2,
+	  paginationClickable: true,
+	  spaceBetween: 20,
+	  freeMode: true
+  });
+
+
+ $('.can_box').next().find('i').click(function(){
+    var cname=$(this).attr('class');
+	
+	if(cname=='')
+	{	
+	 $(this).addClass('upone');
+	 $(this).parent().parent().find('.can_box').css('height','100%');
+	}
+	 
+	if(cname=='upone')
+	{	
+	 $(this).removeClass('upone');
+	 $(this).parent().parent().find('.can_box').css('height','155px');
+	}
+ })
+
+ $('.lp_intro').next().find('i').click(function(){
+    var cname=$(this).attr('class');
+	
+	if(cname=='')
+	{	
+	 $(this).addClass('upone');
+	 $(this).parent().parent().find('.lp_intro').css('height','100%');
+	}
+	 
+	if(cname=='upone')
+	{	
+	 $(this).removeClass('upone');
+	 $(this).parent().parent().find('.lp_intro').css('height','155px');
+	}
+ })
+
+</script>
+
+</body>
+</html>

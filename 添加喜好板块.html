@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="js/jquery-1.4.2.min.js"></script>
+<title>添加喜好板块</title>
+</head>
+<body style="background:#eeeeee;">
+   <header class="topback">
+       <div class="topbox">
+        <div class="topitem tl"><a><img src="images/fanhui.png"/></a></div>
+        <div class="topitem mid">添加喜好板块</div>
+        <div class="topitem ltr"></div>
+       </div>
+   </header>
+  <div class="box-add">
+    <div class="hideitem" id="hide1" style="display:block;">
+        <ul class="leftlist">
+            <li class="touchbg">海州区</li>
+            <li>连云区</li>
+            <li>赣榆区</li>
+            <li>开发区</li>
+            <li>东海</li>
+            <li>灌南</li>
+            <li>灌云</li>
+        </ul>
+
+        <ul class="rightlist" id="child1">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>     
+            <li  style="background:#fff;">&nbsp;</li>
+            <li  style="background:#fff;">&nbsp;</li>
+            <li  style="background:#fff;">&nbsp;</li>                  
+        </ul>
+
+        <ul class="rightlist" id="child2" style="display:none;">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+             <li  style="background:#fff;">&nbsp;</li>             
+        </ul>
+
+        <ul class="rightlist" id="child3" style="display:none;">
+            <li>不限</li>
+            <li>连云新区</li>
+            <li>墟沟城区</li>
+            <li>CBD商务区</li>
+            <li>平山板块</li>
+            <li>连岛板块</li>
+            <li  style="background:#fff;">&nbsp;</li>              
+        </ul>
+
+        <ul class="rightlist" id="child4" style="display:none;">
+            <li>不限</li>
+            <li>青口镇</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+            <li  style="background:#fff;">&nbsp;</li>              
+        </ul>
+
+        <ul class="rightlist" id="child5" style="display:none;">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+             <li  style="background:#fff;">&nbsp;</li>             
+        </ul>
+
+        <ul class="rightlist" id="child6" style="display:none;">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+            <li  style="background:#fff;">&nbsp;</li>              
+        </ul>
+
+        <ul class="rightlist" id="child7" style="display:none;">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+             <li  style="background:#fff;">&nbsp;</li>             
+        </ul>
+
+        <ul class="rightlist" id="child8" style="display:none;">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+             <li  style="background:#fff;">&nbsp;</li>             
+        </ul>
+    </div>
+    <div class="hideitem" id="hide2" style="display:none;">
+        <ul class="full">
+            <li class="sel_xuan">全部</li>
+            <li>多层</li>
+            <li>高层</li>
+            <li>开发区</li>
+            <li>东海</li>
+            <li>灌南</li>
+            <li>灌云</li>
+        </ul>
+    </div>
+    <div class="hideitem" id="hide3" style="display:none;">
+        <ul class="full">
+            <li class="sel_xuan">全部</li>
+            <li>3000以下</li>
+            <li>3000-4000</li>
+            <li>4000-5000</li>
+            <li>5000-6000</li>
+            <li>6000-7000</li>
+            <li>7000-8000</li>
+            <li>8000以上</li>
+            <li>售价待定</li>
+        </ul>
+    </div>
+    <div class="hideitem" id="hide4" style="display:none;">
+        <ul class="leftlist">
+            <li class="touchbg">排序</li>
+            <li>状态</li>
+            <li>特色</li>
+            <li>装修</li>
+            <li>户型</li>
+        </ul>
+
+        <ul class="rightlist" id="order1">
+            <li>不限</li>
+            <li>价格高到低</li>
+            <li>价格低到高</li>
+            <li>开盘时间早到晚</li>
+            <li>开盘时间晚到早</li>
+        </ul>
+        <ul class="rightlist" id="order2" style="display:none;">
+            <li>不限</li>
+            <li>公开</li>
+            <li>认购</li>
+            <li>开盘</li>
+            <li>预售</li>
+        </ul>
+        <ul class="rightlist" id="order3" style="display:none;">
+            <li>不限</li>
+            <li>价格高到低</li>
+            <li>价格低到高</li>
+            <li>开盘时间早到晚</li>
+            <li>开盘时间晚到早</li>
+        </ul>
+        <ul class="rightlist" id="order4" style="display:none;">
+            <li>不限</li>
+            <li>公开</li>
+            <li>认购</li>
+            <li>开盘</li>
+            <li>预售</li>
+        </ul>
+        <ul class="rightlist" id="order5" style="display:none;">
+            <li>不限</li>
+            <li>公开</li>
+            <li>认购</li>
+            <li>开盘</li>
+            <li>预售</li>
+        </ul>
+    </div> 
+  </div>
+       <div class="qr">
+         <button class="tui-lo mtop mt50">确  定</button>
+       </div>        
+ <script>
+    $('.selectnav p').click(function(){
+        var cname=$(this).attr('class');
+        var oid=$(this).attr('id');
+        var seid="hide"+oid.substring(2,3);
+
+        if(cname=='')
+        {
+            $(this).addClass('selectitem');
+            $(this).siblings().removeClass('selectitem');
+        }
+        $(this).parent().parent().find('.hideitem').css('display','none');
+        $("#"+seid).css('display','');
+
+        if(cname=='selectitem')
+        {
+            $('.hideitem').css('display','none');
+            $(this).removeClass('selectitem');
+        }
+
+    })
+
+
+
+    $('#hide1 li').click(function(){
+        var oli=$(this).index()+1;
+        var liname=$(this).attr('class');
+        if(liname=='')
+        {
+            $(this).addClass('touchbg');
+            $(this).siblings().removeClass('touchbg');
+        }
+        $(this).parent().parent().find('.rightlist').css('display','none');
+        $("#"+"child"+oli).css('display','');
+    })
+
+    $('.full li').click(function(){
+        var fname=$(this).attr('class');
+        if(fname=='')
+        {
+            $(this).addClass('sel_xuan');
+            $(this).siblings().removeClass('sel_xuan');
+        }
+    })
+
+    $('#hide4 li').click(function(){
+        var hli=$(this).index()+1;
+        var hname=$(this).attr('class');
+        if(hname=='')
+        {
+            $(this).addClass('touchbg');
+            $(this).siblings().removeClass('touchbg');
+        }
+        $(this).parent().parent().find('.rightlist').css('display','none');
+        $("#"+"order"+hli).css('display','');
+    })
+
+</script>   
+</body>
+</html>
